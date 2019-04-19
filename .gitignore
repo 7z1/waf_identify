@@ -1,0 +1,10 @@
+output/
+__MACOSX
+.DS_Store
+__pycache__/
+*.py[cod]
+.sqlmap_history
+traffic.txt
+*~
+req*.txt
+.idea/

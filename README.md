@@ -17,7 +17,7 @@
 
 主要提取自sqlmap
 
-使用命令：python main.py http://www.xxx.com
+使用命令：python waf.py http://www.xxx.com
 
 
 

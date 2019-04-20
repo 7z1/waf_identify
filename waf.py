@@ -58,10 +58,10 @@ class WafCheck(object):
                 print("[+] 发现网站防火墙 : " + self.waf_type + "\r\n")
                 return True
             elif resp.status_code != 200:
-                self.info = "payload：{}，状态码：{}!!!".format(add_url, resp.status_code)
+                self.info = "payload：{}，状态码：{}!!!".format(payload, resp.status_code)
                 print("[-] 网站未检测到防火墙或指纹识别失败: " + self.info + "\r\n")
             else:
-                self.info = "payload：{}，状态码：{}!!!".format(add_url, resp.status_code)
+                self.info = "payload：{}，状态码：{}!!!".format(payload, resp.status_code)
                 print("[-] 网站未检测到防火墙或指纹识别失败: " + self.info + "\r\n")
         return False
     

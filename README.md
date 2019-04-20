@@ -13,9 +13,9 @@
 
 方便自行添加指纹
 
-方便接入自己工具
+方便移植接入自己工具
 
-主要脚本提取自sqlmap
+主要提取自sqlmap
 
 使用命令：python main.py http://www.xxx.com
 
